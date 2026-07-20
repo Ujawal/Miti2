@@ -5,7 +5,7 @@
     "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,json}\"",
     "dev": "wrangler dev src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts",
-    "db:generate": "drizzle-kit generate:sqlite",
+    "db:generate": "drizzle-kit generate",
     "db:migrate": "wrangler d1 migrations apply demo --local",
     "db:migrate:prod": "wrangler d1 migrations apply demo --remote",
     "db:studio": "drizzle-kit studio",
@@ -29,7 +29,7 @@
     "@miti/prettier-config": "workspace:*",
     "@miti/tsconfig": "workspace:*",
     "@cloudflare/workers-types": "^4.20240423.0",
-    "drizzle-kit": "^0.20.17",
+    "drizzle-kit": "^0.21.4",
     "wrangler": "^3.52.0"
   },
   "eslintConfig": {

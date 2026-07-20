@@ -1,0 +1,22 @@
+{
+  "extends": ["expo/tsconfig.base", "@miti/tsconfig/base"],
+  "compilerOptions": {
+    "strict": true,
+    "types": ["vite-plugin-pwa/client", "node", "react", "react-dom"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", "./index.js", "vite.config.ts"],
+  "exclude": ["src/service-worker"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

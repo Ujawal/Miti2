@@ -1,0 +1,45 @@
+{
+  "homepage": {
+    "View_all_events": "View all events",
+    "S": "S",
+    "M": "M",
+    "T": "T",
+    "W": "W",
+    "Th": "T",
+    "F": "F",
+    "Sa": "S",
+    "Delete": "Delete"
+  },
+  "navbar": {
+    "Home": "Home",
+    "Events": "Events",
+    "Holidays": "Holidays",
+    "Date_Converter": "Date Converter",
+    "About": "About",
+    "Login": "Login",
+    "offline": "offline",
+    "Sign_out": "Sign Out",
+    "Upcoming_Events": "Upcoming Events",
+    "Holidays_only": "Holidays only",
+    "All_Events": "All Events",
+    "Upcoming_Holidays": "Upcoming Holidays",
+    "today": "Today"
+  },
+  "today": {
+    "Tithi": "Tithi",
+    "Sunrise": "Sunrise",
+    "Sunset": "Sunset"
+  },
+  "modal": {
+    "Day_Details": "Day Details",
+    "Calendar_Events": "Calendar Events",
+    "User_Events": "User Events"
+  },
+  "dc": {
+    "Date_Converter": "Date Converter",
+    "Anno_Domini": "Anno Domini",
+    "A.D": "A.D",
+    "Bikram_Sambat": "Bikram Sambat",
+    "B.S": "B.S"
+  }
+}

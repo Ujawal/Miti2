@@ -1,0 +1,17 @@
+{
+  "name": "@miti/prettier-config",
+  "private": true,
+  "version": "0.1.0",
+  "main": "config.mjs",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --write \"**/*.{mjs,ts,md,json}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@miti/tsconfig": "*",
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.1",
+    "prettier": "^3.2.5"
+  },
+  "prettier": "@miti/prettier-config"
+}

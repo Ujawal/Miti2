@@ -1,0 +1,43 @@
+{
+  "homepage": {
+    "View_all_events": "सबै कार्यक्रमहरु हेर्नुहोस्",
+    "S": "आ",
+    "M": "सो",
+    "T": "मं",
+    "W": "बु",
+    "Th": "बि",
+    "F": "शु",
+    "Sa": "श",
+    "Delete": "हटाउनुहोश्"
+  },
+  "navbar": {
+    "Home": "गृहपृष्ठ",
+    "Events": "कार्यक्रमहरु",
+    "Holidays": "बिदाहरु",
+    "Date_Converter": "मिती परिवर्तन",
+    "About": "बारेमा",
+    "Login": "लगईन",
+    "offline": "अफलाईन",
+    "Sign_out": "साईन आउट",
+    "Upcoming_Events": "आगामी कार्यक्रमहरु",
+    "Holidays_only": "बिदाहरु मात्र",
+    "All_Events": "सबै कार्यक्रमहरु",
+    "Upcoming_Holidays": "आगामी बिदाहरु",
+    "today": "आज"
+  },
+  "today": {
+    "Tithi": "तिथि",
+    "Sunrise": "सूर्य उदय",
+    "Sunset": "सूर्य अस्त"
+  },
+  "modal": {
+    "Day_Details": "मिति विवरण",
+    "Calendar_Events": "क्यालेन्डर कार्यक्रमहरु",
+    "User_Events": "प्रयोगकर्ता कार्यक्रमहरु"
+  },
+  "dc": {
+    "Date_Converter": "मिती परिवर्तन",
+    "A.D": "सन्",
+    "B.S": "बि.सं"
+  }
+}

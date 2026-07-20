@@ -1,4 +1,5 @@
 [build]
+  environment = { NODE_VERSION = "20" }
   command = "npm install && npx turbo build --filter=miti-web"
   publish = "apps/vite/dist"
 

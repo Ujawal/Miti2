@@ -1,6 +1,5 @@
 [build]
-  environment = { NODE_VERSION = "20" }
-  command = "npm install && npx turbo build --filter=miti-web"
+  command = "bun install && bun run --filter=miti-web build"
   publish = "apps/vite/dist"
 
 [[redirects]]

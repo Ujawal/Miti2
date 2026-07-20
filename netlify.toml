@@ -1,0 +1,8 @@
+[build]
+  command = "npm install && npx turbo build --filter=miti-web"
+  publish = "apps/vite/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

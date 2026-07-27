@@ -49,3 +49,5 @@ thumbs.db
 **/.turbo/*
 
 .env
+bun.lock*
+

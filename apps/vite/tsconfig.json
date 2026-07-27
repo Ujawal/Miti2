@@ -1,5 +1,4 @@
 {
-  "extends": ["expo/tsconfig.base", "@miti/tsconfig/base"],
   "compilerOptions": {
     "strict": true,
     "types": ["vite-plugin-pwa/client", "node", "react", "react-dom"],
@@ -7,16 +6,20 @@
     "jsxImportSource": "react",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@miti/types": ["./src/lib/types"],
+      "@miti/query/*": ["./src/lib/query/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "./index.js", "vite.config.ts"],
-  "exclude": ["src/service-worker"],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "exclude": ["src/service-worker"]
 }
